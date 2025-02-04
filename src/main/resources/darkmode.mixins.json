@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.n8M4.darkmode.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "darkmode.refmap.json",
+  "plugin": "de.n8M4.darkmode.MixinConfig",
+  "mixins": [
+  ],
+  "client": [
+    "DisableBlurMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
